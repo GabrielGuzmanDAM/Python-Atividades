@@ -40,7 +40,7 @@ lista[1] = -2
 lista.append(4)
 print(list)
 
-lista.extend(4,5,6)
+#lista.extend(4,5,6)
 print(list)
 
 lista2 = [1,2,3]
@@ -72,3 +72,54 @@ rango = range(inicio,fin)
 
 # len: puedes ver la longitud de cualquier conjunto de variables
 print(len(rango))
+
+# Diccionarios = un conjunto de elementos ordenados por clave valor
+diccionario = {
+    "nombre" : "Pepe",
+    "apellido" : "López",
+    "edad" : 18
+}
+
+diccionario["edad"] = 20
+
+diccionario["direcion"] = "calle 1"
+
+diccionario["lista"] = ["1", "2", "3"]
+
+del diccionario["direcion"]
+
+print(diccionario)
+print(diccionario["edad"])
+print(diccionario["lista"][0])
+
+estudiante = [
+    {
+        "nombre" : "Pepe",
+        "apellido" : "López",
+        "edad" : 18,
+        "lista" : ["1", "2", "3"]
+    },
+    {
+        "nombre" : "Pepe",
+        "apellido" : "López",
+        "edad" : 18,
+        "lista" : ["1", "2", "3"]
+    }
+]
+
+print(estudiante[1]["lista"][1])
+
+# Conjuntos: son un conjuntos sin orden y que no se pueden repetir
+
+conjunto = {1,2,3,3}
+conjunto.add(7)
+conjunto.remove(3)
+print(conjunto)
+
+# main
+
+def main():
+    print("estoy en mi main")
+
+if __name__ -- "__main__":
+    main()
