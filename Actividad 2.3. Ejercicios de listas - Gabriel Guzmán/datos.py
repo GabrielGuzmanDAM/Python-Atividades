@@ -51,7 +51,6 @@ pokemons = [
 {
 "nombre": "Lucario",
 "generacion": 4,
-
 "categoria": "Aura",
 "tipos": ["Lucha", "Acero"],
 "peso_kg": 54.0,
