@@ -20,23 +20,23 @@ def ejercicio1():
 
 
 def ejercicio2():
-# Codigo de ejercicio 2
+#  Codigo de ejercicio 2
 
-    #suma  = 0
-    #media = 0
-    #mediaRequicito = 80
+    suma  = 0
+    media = 0
+    mediaRequicito = 80
 
-    #print(f"-----------------------")
-    #for personaje in personajes:
-    #    for atributo in personaje['atributos']:
-    #        suma = atributo;
+    print(f"-----------------------")
+    for personaje in personajes:
+        for atributo in personaje['atributos']:
+            suma = atributo;
 
-    #    media = suma / 3
+        media = suma / 3
 
-    #    if media > mediaRequicito:
-    #        print(f"{personaje}")
+        if media > mediaRequicito:
+            print(f"{personaje}")
 
-    #print(f"-----------------------")
+    print(f"-----------------------")
      
     print(f"-----------------------")
     for personaje in personajes:
